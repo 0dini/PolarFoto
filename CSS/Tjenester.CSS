@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+/* Video BG start */
+
+.BG_Video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 1920px;
+    height: 1080px;
+}
+
+/* Video BG end */
+
+/* Header tjenester start */
+
+.header_tjenester{
+    color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 14rem;
+    width: 100vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 2px black;
+}
+
+/* Header tjenester end */
+
+
+/* Div 1 start */
+
+
+
+/* Div 1 end */

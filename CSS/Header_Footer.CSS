@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #448cc7;
+    min-height: 118vh;
+    overflow-x:hidden;
+}
+
+li{
+    text-shadow: 2px 2px 2px #18181a;
+}
+
+h1{
+    text-shadow: 2px 2px 2px #18181a;
+}
+
+/* Header start */
+
+.header{
+    width: 100vw;
+    height: 60px;
+    display: block;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.inner_header{
+    width: 85vw;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_container h1{
+    letter-spacing: 2px;
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'montserrat';
+    font-size: 32px;
+    font-weight: 100;
+    padding: 7px;
+}
+
+.logo_container h1 span{
+    font-weight: 1000;
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 40px;
+    font-weight: 500;
+}
+
+.navigation a:last-child{
+    padding-right: 0;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: 'montserrat';
+    font-size: 22px;
+}
+
+/* Header end */
+
+/* Footer start */
+
+.footer{
+    width: 100vw;
+    display: block;
+    overflow: hidden;
+    padding: 20px 0;
+    box-sizing: border-box;
+    background-color: #18181a;
+    position: sticky;
+    top: 100%;
+}
+
+.inner_footer{
+    display: block;
+    margin: 0 auto;
+    width: 85vw;
+    height: 100%;
+}
+/*
+.inner_footer .logo_container_footer{
+    width: 35%;
+    float: left;
+    width: 85vw;
+    height: 100%;
+}
+
+.inner_footer .logo_container_footer img{
+    width: 100px;
+    height: auto;
+}
+*/
+.inner_footer .footer_third{
+    width: calc(20% - 20px);
+    margin-right: 10px;
+    float: left;
+    height: 100%;
+    font-family: 'montserrat';
+}
+
+.inner_footer .footer_third:last-child{
+    margin-right: 0;
+}
+
+.inner_footer .footer_third h1{
+    font-size: 22px;
+    color: white;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.inner_footer .footer_third p{
+    font-size: 18px;
+    color: white;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Footer End */
+
+/* Text Decoration Start */
+
+a {
+    position: relative;
+    color: #18181a;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #18181a;
+}
+
+a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #18181a;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+a:hover::before {
+    transform: scaleX(1);
+}
+
+/* Text Decoration End */
