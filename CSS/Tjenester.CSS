@@ -14,9 +14,7 @@
     display: block;
     width: auto;
     height: 100%;
-    max-width: 1240px;
-    margin-right: auto;
-    margin-left: auto;
+    max-width: 100%;
     padding: 0 40px;
 }
 
@@ -36,15 +34,12 @@
 .tjenester_grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 16px;
+    gap: 18px;
+    margin: 0 44rem;
 }
 
 .grid_item_tjenester_1 {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 2;
+    aspect-ratio: 1.2;
     background-color: red;
 }
 
