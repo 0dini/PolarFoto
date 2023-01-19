@@ -6,28 +6,25 @@
     margin: 0;
 }
 
-/* Video BG start */
-
-.BG_Video{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 1920px;
-    height: 1080px;
-}
-
-/* Video BG end */
-
 /* Header tjenester start */
 
-.header_tjenester{
+.tjeneste_container{
+    position: relative;
+    z-index: 10;
+    display: block;
+    width: auto;
+    height: 100%;
+    max-width: 1240px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 40px;
+}
+
+.small_container{
     color: white;
     position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
-    padding-top: 14rem;
+    margin-top: 14rem;
     width: 100vw;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -36,11 +33,19 @@
     text-shadow: 2px black;
 }
 
+.tjenester_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.grid_item_tjenester_1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: red;
+}
+
 /* Header tjenester end */
-
-
-/* Div 1 start */
-
-
-
-/* Div 1 end */

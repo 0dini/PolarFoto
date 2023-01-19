@@ -168,7 +168,6 @@ a::before {
     height: 2px;
     bottom: 0;
     left: 0;
-    background: rgb(92,145,242);
     background: linear-gradient(90deg, rgba(92,145,242,1) 0%, rgba(92,224,242,1) 100%); 
     transform: scaleX(0);
     transition: transform 0.3s ease;
