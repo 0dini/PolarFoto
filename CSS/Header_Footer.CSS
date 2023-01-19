@@ -10,7 +10,7 @@
 }
 
 body{
-    background-color: #448cc7;
+    background-color: #242526;
     min-height: 118vh;
     overflow-x:hidden;
 }
@@ -71,7 +71,7 @@ h1{
     height: 100%;
     display: table;
     float: left;
-    padding: 0px 40px;
+    margin: 0px 40px;
     font-weight: 500;
 }
 
@@ -160,10 +160,6 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    color: #18181a;
-}
-
 a::before {
     content: "";
     position: absolute;
@@ -172,7 +168,8 @@ a::before {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #18181a;
+    background: rgb(92,145,242);
+    background: linear-gradient(90deg, rgba(92,145,242,1) 0%, rgba(92,224,242,1) 100%); 
     transform: scaleX(0);
     transition: transform 0.3s ease;
 }
