@@ -22,7 +22,7 @@
     color: white;
     position: absolute;
     text-align: center;
-    margin-top: 14rem;
+    margin-top: 6rem;
     width: 100vw;
     height: auto;
     font-family: 'Montserrat', sans-serif;
@@ -32,11 +32,16 @@
     text-shadow: 2px black;
 }
 
+.tjenester_container H2{
+    font-size: 20px;
+    float: center;
+}
+
 .tjenester_grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 18px;
-    margin: 0 44rem;
+    margin: 0 20rem;
 
 }
 
@@ -46,7 +51,9 @@
 .grid_item_tjenester_4,
 .grid_item_tjenester_5,
 .grid_item_tjenester_6 {
-    background-color: rgb(92,145,242);
-    aspect-ratio: 1.2;
+    aspect-ratio: 1.4;
 }
-/* Header tjenester end */
+
+.grid_item_tjenester_1 {
+    background-size: cover;
+}
