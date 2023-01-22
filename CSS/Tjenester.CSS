@@ -24,6 +24,7 @@
     text-align: center;
     margin-top: 14rem;
     width: 100vw;
+    height: auto;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     letter-spacing: 2px;
@@ -36,11 +37,16 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 18px;
     margin: 0 44rem;
+
 }
 
-.grid_item_tjenester_1 {
+.grid_item_tjenester_1,
+.grid_item_tjenester_2,
+.grid_item_tjenester_3,
+.grid_item_tjenester_4,
+.grid_item_tjenester_5,
+.grid_item_tjenester_6 {
+    background-color: rgb(92,145,242);
     aspect-ratio: 1.2;
-    background-color: red;
 }
-
 /* Header tjenester end */
