@@ -45,15 +45,19 @@
 
 }
 
-.grid_item_tjenester_1,
-.grid_item_tjenester_2,
-.grid_item_tjenester_3,
-.grid_item_tjenester_4,
-.grid_item_tjenester_5,
-.grid_item_tjenester_6 {
+.grid_item_tjenester {
     aspect-ratio: 1.4;
+    position: relative;
+    text-align: center;
 }
 
-.grid_item_tjenester_1 {
-    background-size: cover;
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 23px;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    text-shadow: black 0 2px;
+    color: white;
 }
