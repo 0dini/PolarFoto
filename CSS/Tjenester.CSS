@@ -61,3 +61,19 @@
     text-shadow: black 0 2px;
     color: white;
 }
+img:hover {
+    webkit-filter: blur(2px); /* Chrome, Safari, Opera */
+    filter: blur(2px);
+    transition: .2s;
+}
+
+.grid_item_tjenester:hover {
+    color: brown;
+}
+
+.center:hover h3{
+    background: -webkit-linear-gradient(rgb(68, 0, 255), rgb(245, 11, 11));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 1s;
+}

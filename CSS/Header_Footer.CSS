@@ -154,13 +154,13 @@ h1{
 
 /* Text Decoration Start */
 
-a {
+.line {
     position: relative;
     color: #18181a;
     text-decoration: none;
 }
 
-a::before {
+.line::before {
     content: "";
     position: absolute;
     display: block;
@@ -173,7 +173,7 @@ a::before {
     transition: transform 0.3s ease;
 }
 
-a:hover::before {
+.line:hover::before {
     transform: scaleX(1);
 }
 
