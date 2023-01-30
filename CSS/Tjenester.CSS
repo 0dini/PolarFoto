@@ -32,11 +32,6 @@
     text-shadow: 2px black;
 }
 
-.tjenester_container H2{
-    font-size: 20px;
-    float: center;
-}
-
 .tjenester_grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -52,6 +47,7 @@
 }
 
 .center {
+    display: inline-block;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -59,18 +55,10 @@
     transform: translate(-50%, -50%);
     font-weight: bold;
     color: white;
+    text-shadow: black 1px 1px;
 }
-img:hover {
+
+.grid_item_tjenester:hover img {
     filter: blur(2px);
     transition: .2s;
-}
-
-.center:hover h3{
-    color: white;
-    -webkit-background-clip: text;
-    transition: 1s;
-}
-
-.center:hover, h3 {
-    font-size: 23px;
 }
