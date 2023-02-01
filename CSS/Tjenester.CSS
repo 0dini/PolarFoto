@@ -60,5 +60,6 @@
 
 .grid_item_tjenester:hover img {
     filter: blur(2px);
-    transition: .2s;
+    transition: .3s;
+    transform: scale(1.03);
 }
