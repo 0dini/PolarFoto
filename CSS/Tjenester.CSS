@@ -62,3 +62,8 @@
     transition: .3s;
     transform: scale(1.03);
 }
+
+.bg-slide{
+    width: 100vw;
+    position: absolute;
+}
