@@ -26,6 +26,7 @@ h1{
 /* Header start */
 
 .header{
+    position: fixed;
     width: 100vw;
     height: 60px;
     padding-top: 15px;

@@ -63,7 +63,7 @@
     transform: scale(1.03);
 }
 
-.bg-slide{
+.bg-img {
     width: 100vw;
-    position: absolute;
+    height: auto;
 }
