@@ -67,3 +67,14 @@
     width: 100vw;
     height: auto;
 }
+
+.interiør-title {
+    letter-spacing: 3px;
+    color: white;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    margin-top: 20vh;
+    font-size: 6vw;
+}
