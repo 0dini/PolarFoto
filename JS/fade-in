@@ -1,0 +1,10 @@
+window.onload = function() {
+    setTimeout(function() {
+        //Re-enable mouse/touch events on the #next button
+        document.getElementsByClassName("interiør-title").style.pointerEvents = 'auto';
+
+        //Show the #next button
+        //Since opacity style is transitioned, the opacity change will automatically trigger the transition.
+        document.getElementsByClassName("interiør-title").style.opacity = 1;
+    }, 5000);
+};

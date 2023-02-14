@@ -69,7 +69,7 @@
 }
 
 .interiør-title {
-    letter-spacing: 3px;
+    letter-spacing: .2rem;
     color: white;
     position: absolute;
     text-align: center;
@@ -78,3 +78,20 @@
     margin-top: 20vh;
     font-size: 6vw;
 }
+
+.heading-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+ 
+.interiør-title {
+   opacity:0;  /* make things invisible upon start */
+   animation:fadeIn ease-in 1;
+   animation-fill-mode:forwards;
+   animation-duration: 1.8s;
+  }
