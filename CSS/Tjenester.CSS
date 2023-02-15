@@ -137,3 +137,11 @@
         transform: rotate(45deg) translate(20px, 20px);
     }
 }
+
+.container-content-tjenester{
+    width: 100%;
+}
+
+.container-content-tjenester .wrapper {
+width: 100%;
+}
