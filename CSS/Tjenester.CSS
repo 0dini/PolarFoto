@@ -10,7 +10,6 @@
 
 .tjeneste_container{
     position: relative;
-    z-index: 10;
     display: block;
     width: auto;
     height: 100%;
@@ -21,7 +20,7 @@
     color: white;
     position: absolute;
     text-align: center;
-    margin-top: 6rem;
+    margin-top: 10rem;
     width: 100vw;
     height: auto;
     font-family: 'Montserrat', sans-serif;
@@ -88,13 +87,13 @@
 }
 
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
- 
+
 .interiør-title {
    opacity:0;  /* make things invisible upon start */
-   animation:fadeIn ease-in 1;
-   animation-fill-mode:forwards;
-   animation-duration: 1.8s;
-  }
+    animation:fadeIn ease-in 1;
+    animation-fill-mode:forwards;
+    animation-duration: 1.8s;
+    }
 
 .arrow {
     position: absolute;
@@ -138,10 +137,49 @@
     }
 }
 
-.container-content-tjenester{
-    width: 100%;
+.interiør-description {
+    color: white;
+    text-align: center;
+    max-width: 50%;
+    margin-left: 25vw;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
 }
 
-.container-content-tjenester .wrapper {
-width: 100%;
+.interiør-description h2 {
+    font-size: 2.3rem;
+}
+
+.line-gallery {
+    height: 1px;
+    background: linear-gradient(90deg, rgba(92,145,242,1) 0%, rgba(92,224,242,1) 100%);
+    margin-bottom: 5vh;
+    width: 40%;
+    margin-left: 30vw;
+}
+
+.img-gallery-container{
+    width: fit-content;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10vh;
+    max-width: 70%;
+    margin-left: 15vw;
+}
+
+.image-gallery > li {
+    flex-basis: 350px;
+}
+
+.image-gallery li img {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 5px;
 }
