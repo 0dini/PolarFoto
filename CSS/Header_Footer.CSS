@@ -9,6 +9,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #242526;
     min-height: 118vh;

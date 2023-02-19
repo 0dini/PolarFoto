@@ -166,7 +166,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 1.3rem;
     margin-bottom: 10vh;
     max-width: 70%;
     margin-left: 15vw;
