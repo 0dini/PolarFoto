@@ -1,0 +1,29 @@
+.bg-container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.bg {
+    object-fit: cover;
+}
+
+.review-container{
+width: 100%;
+}
+
+.slogan{
+    margin-top: 20vh;
+    margin-left: 8vw;
+    color: white;
+    position: absolute;
+    font-size: 1.8em;
+}
+
+.slogan span{
+    color: rgb(88, 160, 255);
+}
+
+#eapps-google-reviews-1b9ec737-1189-4426-8d9c-f0aad52ac2c1{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
