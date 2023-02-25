@@ -155,7 +155,7 @@
     background: linear-gradient(90deg, rgba(92,145,242,1) 0%, rgba(92,224,242,1) 100%);
     margin-bottom: 5vh;
     width: 40%;
-    margin-left: 30vw;
+    margin-left: 28vw;
 }
 
 .img-gallery-container{
@@ -182,4 +182,23 @@
     height: auto;
     vertical-align: middle;
     border-radius: 5px;
+}
+
+.hidden {
+    opacity: 0;
+    transition: all 5s;
+}
+
+.hidden.line-gallery {
+    transform: scaleX(0);
+    opacity: 1;
+    transition: all 1.5s;
+}
+
+.show {
+    opacity: 1;
+}
+
+.show.line-gallery {
+    transform: scaleX(1);
 }
