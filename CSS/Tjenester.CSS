@@ -31,11 +31,10 @@
 }
 
 .tjenester_grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 18px;
-    margin: 0 20rem;
-
+    display: flex;
+    flex-flow: row wrap;
+    gap: 15px;
+    justify-content: center;
 }
 
 .grid_item_tjenester {
