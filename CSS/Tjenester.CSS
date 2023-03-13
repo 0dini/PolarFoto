@@ -6,14 +6,13 @@
     margin: 0;
 }
 
-/* Header tjenester start */
+body{
+    overflow-y: scroll;
+}
 
 .tjeneste_container{
     position: relative;
     display: block;
-    width: auto;
-    height: 100%;
-    max-width: 100%;
 }
 
 .small_container{
@@ -33,9 +32,8 @@
 .tjenester_grid {
     display: flex;
     flex-flow: row wrap;
-    margin: 0 15vh;
-    gap: 20px;
     justify-content: center;
+    margin: 0 10vw 0 10vw;
 }
 
 .grid_item_tjenester {
@@ -43,6 +41,7 @@
     position: relative;
     text-align: center;
     overflow: hidden;
+    transform: scale(0.95);
 }
 
 .center {
@@ -61,6 +60,11 @@
     filter: blur(2px);
     transition: .3s;
     transform: scale(1.03);
+}
+
+.grid_item_tjeneste img{
+    width: 100%;
+    height: 100%;
 }
 
 .bg-img {
