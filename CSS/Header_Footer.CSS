@@ -214,8 +214,8 @@ h1{
 
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
-.interiør-title {
-   opacity:0;  /* make things invisible upon start */
+.interior-title {
+    opacity:0;  /* make things invisible upon start */
     animation:fadeIn ease-in 1;
     animation-fill-mode:forwards;
     animation-duration: 1.8s;
