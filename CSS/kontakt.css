@@ -15,6 +15,10 @@
     }
 
 .kontakt_liste {
+    opacity:0;  /* make things invisible upon start */
+    animation:fadeIn ease-in 1;
+    animation-fill-mode:forwards;
+    animation-duration: 1.8s;
     top: 15vh;
     align-items: center;
     justify-content: center;
