@@ -91,3 +91,9 @@ html, body {
     background-color: #023f78;
     position: absolute;
 }
+
+.logo_img{
+    margin-top: 20vh;
+    display: grid;
+    place-items: center;
+}
