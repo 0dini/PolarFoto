@@ -68,8 +68,8 @@ body{
 }
 
 .bg-img {
-    width: 100vw;
     height: auto;
+    width: 100vw;
 }
 
 .interior-title {
