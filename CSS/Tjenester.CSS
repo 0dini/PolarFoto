@@ -37,7 +37,7 @@ body{
 }
 
 .grid_item_tjenester {
-    aspect-ratio: 1.4;
+    aspect-ratio: 1.6;
     position: relative;
     text-align: center;
     overflow: hidden;
